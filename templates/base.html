@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видеоинспекция</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+</head>
+<body style="background-color:  var(--bs-dark);">
+    <div class="container bg-dark content">
+        <div class="row mb-1">
+            <div class="col text-center">
+                <img id="video" src="{{ url_for('video_feed') }}" class="img_fluid" height="700">
+            </div>
+        </div>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
