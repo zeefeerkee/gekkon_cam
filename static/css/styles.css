@@ -1,35 +1,25 @@
-.keyboard {
+body {
+    overflow-y: hidden;
+}
+
+nav img {
+    position: relative;
+    bottom: 4px;
+    width: 0.95em;
+    display: inline;
+    align-items: center;
+}
+
+.main-header {
+    color: white;
+}
+
+.video_container {
+    width: 100%;
+}
+
+.btn-group{
     position: fixed;
-    bottom: 20px;
-    left: 5%;
-    height: 200px;
-    width: 300px;
-    background-image: url("/static/img/sprites/keyboard.png");
-    background-size: cover; /* Фон будет покрывать весь элемент */
-    background-repeat: no-repeat; /* Отключить повторение */
-    opacity: 0.9; /* Прозрачность для всего элемента */
-}
-
-.turn-w {
-    background-position: -300px;
-}
-
-.turn-a {
-    background-position: -600px;
-}
-
-.turn-s {
-    background-position: -900px;
-}
-
-.turn-d {
-    background-position: -1200px;
-}
-
-.hidden {
-    display: none;
-}
-
-.visible {
-    display: block;
+    top: 2%;
+    right: 25%;
 }
